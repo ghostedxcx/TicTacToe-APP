@@ -15,12 +15,12 @@ var moduleBoard = (function() {
 })();
 
 // create a factory function to store players inside of object
-function playerFactory(name,) {
+function playerFactory(name1, name2) {
     var player = {
-        name: name,
+        name: name1,
     }
     var player2 = {
-        name: name,
+        name: name2,
     }
     return player, player2;
 }
